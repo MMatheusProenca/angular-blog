@@ -1,11 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bigshot+One&family=Raleway:wght@300;400;700&display=swap');
 h1{
    font-family: 'Bigshot One', cursive;
    font-size: 10rem;
    color: var(--color-title);
    text-align: center;
    padding: 2%;
-}
-hr{
-   opacity: 10%;
 }
