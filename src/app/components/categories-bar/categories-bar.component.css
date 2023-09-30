@@ -1,0 +1,25 @@
+* {
+   font-family: var(--font-general);
+   color: var(--color-title);
+}
+ul{
+   display: flex;
+   justify-content: space-evenly;
+   padding: 1%;
+}
+li{
+   list-style: none;
+   font-family: 'Bigshot One', cursive ;
+   font-size: 1.2rem;
+   cursor: pointer;
+}
+@media screen and (max-width:825px) {
+   ul{
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   li{
+      width: calc(100% / 3);
+      text-align: center;
+   }
+}

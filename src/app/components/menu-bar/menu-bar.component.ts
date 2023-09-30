@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ThemeService } from 'src/theme.service';
 
 @Component({
   selector: 'app-menu-bar',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu-bar.component.css']
 })
 export class MenuBarComponent implements OnInit {
-
-  constructor() { }
+  
+  constructor(private themeService: ThemeService) { }
 
   ngOnInit(): void {
   }
-
+  toggleTheme() {
+    if (this.themeService.getTheme() === 'claro') {
+      this.themeService.setTheme('escuro');
+    } else {
+      this.themeService.setTheme('claro');
+    }
+  }
 }

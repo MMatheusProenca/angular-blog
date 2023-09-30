@@ -1,0 +1,7 @@
+h1{
+   font-family: 'Bigshot One', cursive;
+   font-size: 10rem;
+   color: var(--color-title);
+   text-align: center;
+   padding: 2%;
+}
