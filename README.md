@@ -33,7 +33,7 @@ Blog construido com o Angular framework.
 1. **Clone o repositório**
    
    ```sh
-   git clone https://link-do-seu-repositorio-aqui.git
+   git clone https://github.com/MMatheusProenca/angular-blog
    
 3. **Instale as dependências**
 - No diretório raiz do projeto, execute:
